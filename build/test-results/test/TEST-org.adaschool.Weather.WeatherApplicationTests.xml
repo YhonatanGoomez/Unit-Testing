@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.adaschool.Weather.WeatherApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-26T23:43:59" hostname="2HPWOM440I1622" time="0.571">
+  <properties/>
+  <testcase name="contextLoads()" classname="org.adaschool.Weather.WeatherApplicationTests" time="0.571"/>
+  <system-out><![CDATA[18:43:56.954 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [WeatherApplicationTests]: using SpringBootContextLoader
+18:43:56.960 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [org.adaschool.Weather.WeatherApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:43:56.960 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.adaschool.Weather.WeatherApplicationTests]: WeatherApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:43:56.980 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [WeatherApplicationTests]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+18:43:57.050 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\yhonatan.gomez\Desktop\weather-api-springboot-java\build\classes\java\main\org\adaschool\Weather\WeatherApplication.class]
+18:43:57.055 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.adaschool.Weather.WeatherApplication for test class org.adaschool.Weather.WeatherApplicationTests
+18:43:57.160 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+18:43:57.160 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+18:43:57.160 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [WeatherApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+18:43:57.160 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [WeatherApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.3)
+
+2024-09-26T18:43:57.450-05:00  INFO 37976 --- [    Test worker] o.a.Weather.WeatherApplicationTests      : Starting WeatherApplicationTests using Java 17.0.10 with PID 37976 (started by yhonatan.gomez in C:\Users\yhonatan.gomez\Desktop\weather-api-springboot-java)
+2024-09-26T18:43:57.455-05:00  INFO 37976 --- [    Test worker] o.a.Weather.WeatherApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-09-26T18:43:59.259-05:00  INFO 37976 --- [    Test worker] o.a.Weather.WeatherApplicationTests      : Started WeatherApplicationTests in 2.038 seconds (process running for 3.259)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
